@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  h1 Friend App
+  p.lead Find things to do fast
+  hr
+  .row
+  form(action="/locations/" method="GET")
+    p Location 1: 
+      input(type="String" name="addrone" placeholder="")
+    p Location 2: 
+      input(type="String" name="addrtwo" placeholder="")
+    p Point Of Interest 
+      input(type="String" name="poi" placeholder="")
+    p
+      input(type="submit")
+    //- .col-md-6
+    //-   h2 Heading
+    //-   p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    //-   p
+    //-     a.btn.btn-raised(href='#', role='button') View details »
+    //- .col-md-6
+    //-   h2 Heading
+    //-   p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    //-   p
+    //-     a.btn.btn-raised(href='#', role='button') View details »
+    //- .col-md-6
+    //-   h2 Heading
+    //-   p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    //-   p
+    //-     a.btn.btn-raised(href='#', role='button') View details »
+    //- .col-md-6
+    //-   h2 Heading
+    //-   p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    //-   p
+    //-     a.btn.btn-raised(href='#', role='button') View details »
