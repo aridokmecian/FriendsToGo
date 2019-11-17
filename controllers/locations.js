@@ -36,7 +36,7 @@ router.get("/", async (req, res) => {
   i = 0 
   var out = ""
   while (i < 4 )
-   res.write(obj[i++]['name'] + '\n')
+   res.write(obj[i]['name'] + " | " + obj[i++]['formatted_address']  + '\n')
   res.end()
 });
 
