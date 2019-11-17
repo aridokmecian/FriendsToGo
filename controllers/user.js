@@ -7,6 +7,7 @@ const validator = require('validator');
 const mailChecker = require('mailchecker');
 const User = require('../models/User');
 
+
 const randomBytesAsync = promisify(crypto.randomBytes);
 
 /**
